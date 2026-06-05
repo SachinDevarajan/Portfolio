@@ -21,7 +21,8 @@ const projects = [
     icon: '📦',
     title: 'Amazon Sales Dashboard',
     year: '2026',
-    description: 'Interactive Power BI dashboard with star schema data model revealing revenue-driving categories and profit trends across product lines.',
+    description: 'Interactive Power BI dashboard with star schema data model revealing \
+                  revenue-driving categories and profit trends across product lines.',
     highlights: [
       'Created star schema using Fact and Dimension tables (Sales, Product, Customer, Orders, Calendar)',
       'Built Yearly Sales Trend, Sales vs Profit by Category, and Order Funnel',
@@ -62,6 +63,21 @@ const projects = [
     github: 'https://github.com/SachinDevarajan/bmw_sales.git',
     demo: null,
   },
+  {
+  icon: '🛒',
+  title: 'FirstCry Sales Analysis Dashboard',
+  year: '2026',
+  description: 'Interactive Power BI dashboard analyzing FirstCry sales performance, customer purchasing behavior, and product category trends to uncover key business insights.',
+  highlights: [
+    'Cleaned and transformed raw sales data using Power Query',
+    'Built interactive dashboards with category, revenue, and order analysis',
+    'Created KPI cards, sales trends, and customer insights visualizations',
+    'Used DAX measures for dynamic calculations and performance tracking',
+  ],
+  tools: ['Power BI', 'DAX', 'Power Query', 'Data Visualization'],
+  github: 'https://github.com/SachinDevarajan/firstcry.git',
+  demo: null,
+},
 ]
 
 export default function Projects() {
