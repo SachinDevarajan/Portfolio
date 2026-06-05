@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi'
 import { HiArrowRight } from 'react-icons/hi'
 import profileImg from '../assets/images/profile.png'
-import resumePDF from '../assets/resume/Sachin_Resume.pdf'
+import resumePDF from '../assets/resume/Sachin.pdf'
 
 const socials = [
   { icon: <FiGithub size={20} />, href: 'https://github.com/SachinDevarajan', label: 'GitHub' },

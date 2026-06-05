@@ -14,7 +14,7 @@ const projects = [
       'Built 8+ visualizations: bar charts, scatter plots, pie charts, box plots',
     ],
     tools: ['Python', 'Pandas', 'Matplotlib', 'Seaborn', 'EDA'],
-    github: 'https://github.com/SachinDevarajan',
+    github: 'https://github.com/SachinDevarajan/Car-Sales-Analysis.git',
     demo: null,
   },
   {
@@ -29,7 +29,7 @@ const projects = [
       'Used DAX measures for dynamic KPI calculations',
     ],
     tools: ['Power BI', 'DAX', 'Data Modeling', 'Star Schema'],
-    github: 'https://github.com/SachinDevarajan',
+    github: 'https://github.com/SachinDevarajan/amazon_sales.git',
     demo: null,
   },
   {
@@ -44,7 +44,7 @@ const projects = [
       'Labels and Paper identified as least profitable sub-categories',
     ],
     tools: ['Microsoft Excel', 'Pivot Tables', 'Slicers', 'Data Visualization'],
-    github: 'https://github.com/SachinDevarajan',
+    github: 'https://github.com/SachinDevarajan/global_super_store.git',
     demo: null,
   },
   {
@@ -59,7 +59,7 @@ const projects = [
       'Generated actionable insights on regional market performance',
     ],
     tools: ['Microsoft Excel', 'Pivot Tables', 'Slicers', 'Data Cleaning'],
-    github: 'https://github.com/SachinDevarajan',
+    github: 'https://github.com/SachinDevarajan/bmw_sales.git',
     demo: null,
   },
 ]

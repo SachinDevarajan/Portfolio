@@ -11,7 +11,7 @@ const skillCategories = [
     color: 'from-blue-500/10 to-blue-500/5',
     border: 'border-blue-500/20',
     accent: 'text-blue-400',
-    skills: ['Python', 'OOPs', 'Functions & Modules', 'File Handling', 'Automation & Scripting']
+    skills: ['Python','SQL']
   },
   {
     icon: <FiBarChart2 size={18} />,
@@ -57,7 +57,7 @@ const skillCategories = [
 
 const softSkills = [
   'Analytical Thinking', 'Problem Solving', 'Data Storytelling',
-  'Attention to Detail', 'Team Collaboration', 'Communication',
+  'Team Collaboration', 'Communication',
   'Business Acumen', 'Continuous Learning'
 ]
 
