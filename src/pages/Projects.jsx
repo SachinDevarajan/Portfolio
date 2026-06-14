@@ -3,6 +3,23 @@ import ProjectCard from '../components/ProjectCard'
 
 const projects = [
   {
+    icon: '📦',
+    title: 'Blinkit Sales Analytics Dashboard',
+    year: '2026',
+    description: 'Comprehensive Power BI dashboard that transforms Blinkit operational and sales data into actionable insights across customer behavior, product performance, delivery efficiency, and business growth metrics.',
+    highlights: [
+      'Developed an end-to-end sales analytics dashboard using Power BI and DAX',
+      'Analyzed revenue, orders, customer trends, and product category performance',
+      'Built interactive KPI cards, filters, and drill-through reports for deeper analysis',
+      'Created Executive Overview, Customer Analytics, Product Analytics, Delivery Analytics, and Marketing Analytics pages',
+      'Used DAX measures and calculated columns for dynamic business metrics',
+      'Enabled data-driven decision-making through visual storytelling and trend analysis',
+    ],
+    tools: ['Power BI', 'DAX', 'Power Query', 'Python', 'Data Visualization'],
+    github: 'https://github.com/SachinDevarajan/Blinkit.git',
+    demo: null,
+  },
+  {
     icon: '🚗',
     title: 'Car Market Data Analysis',
     year: '2026',
