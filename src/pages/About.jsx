@@ -19,7 +19,7 @@ const skillCategories = [
     color: 'from-accent/10 to-accent/5',
     border: 'border-accent/20',
     accent: 'text-accent',
-    skills: ['Excel', 'Advanced Excel', 'Power BI', 'Data Cleaning', 'EDA', 'Data Visualization', 'VLOOKUP', 'Pivot Tables']
+    skills: ['Excel', 'Advanced Excel', 'Power BI', 'Data Cleaning', 'EDA', 'Data Visualization', 'VLOOKUP', 'Pivot Tables','Hadoop','PySpark']
   },
   {
     icon: <FiDatabase size={18} />,
@@ -27,7 +27,7 @@ const skillCategories = [
     color: 'from-emerald-500/10 to-emerald-500/5',
     border: 'border-emerald-500/20',
     accent: 'text-emerald-400',
-    skills: ['Joins', 'Window Functions', 'CRUD Operations', 'GROUP BY', 'Subqueries', 'Aggregate Functions', 'CTE', 'Query Optimization']
+    skills: ['Joins', 'Window Functions', 'CRUD Operations', 'GROUP BY', 'Subqueries', 'Aggregate Functions', 'CTE', 'Query Optimization','SnoqFlake']
   },
   {
     icon: <FiCpu size={18} />,
@@ -35,7 +35,7 @@ const skillCategories = [
     color: 'from-purple-500/10 to-purple-500/5',
     border: 'border-purple-500/20',
     accent: 'text-purple-400',
-    skills: ['Linear Regression', 'Logistic Regression', 'Decision Tree', 'Clustering', 'Model Evaluation', 'Confusion Matrix']
+    skills: ['Linear Regression', 'Logistic Regression', 'Decision Tree','KNN', 'KMeans', 'Clustering', 'Model Evaluation', 'Confusion Matrix','Over Sampling','SMOTE','Under Sampling']
   },
   {
     icon: <FiCode size={18} />,
@@ -43,7 +43,7 @@ const skillCategories = [
     color: 'from-orange-500/10 to-orange-500/5',
     border: 'border-orange-500/20',
     accent: 'text-orange-400',
-    skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'scikit-learn']
+    skills: ['Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'scikit-learn', 'imb-learn',]
   },
   {
     icon: <FiTool size={18} />,
