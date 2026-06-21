@@ -27,7 +27,7 @@ const skillCategories = [
     color: 'from-emerald-500/10 to-emerald-500/5',
     border: 'border-emerald-500/20',
     accent: 'text-emerald-400',
-    skills: ['Joins', 'Window Functions', 'CRUD Operations', 'GROUP BY', 'Subqueries', 'Aggregate Functions', 'CTE', 'Query Optimization','SnoqFlake']
+    skills: ['Joins', 'Window Functions', 'CRUD Operations', 'GROUP BY', 'Subqueries', 'Aggregate Functions', 'CTE', 'Query Optimization','SnowFlake']
   },
   {
     icon: <FiCpu size={18} />,
