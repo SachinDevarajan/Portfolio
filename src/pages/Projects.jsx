@@ -3,6 +3,78 @@ import ProjectCard from '../components/ProjectCard'
 
 const projects = [
   {
+  icon: '📰',
+  title: 'AG News Text Classification',
+  year: '2026',
+  description: 'Machine Learning based NLP project that automatically classifies news articles into four categories using Natural Language Processing and supervised learning algorithms.',
+  highlights: [
+    'Built an end-to-end text classification pipeline using NLP preprocessing techniques',
+    'Performed text cleaning, tokenization, stopword removal, and stemming',
+    'Converted text into numerical features using TF-IDF Vectorization',
+    'Trained and evaluated multiple Machine Learning classification models',
+    'Compared model performance using Accuracy, Precision, Recall, and F1-Score',
+    'Developed an automated news category prediction system for unseen articles'
+  ],
+  tools: [
+    'Python',
+    'Scikit-learn',
+    'Pandas',
+    'NumPy',
+    'TF-IDF',
+    'Machine Learning'
+  ],
+  github: 'https://github.com/SachinDevarajan/AG_News_Analysis',
+  demo: null,
+  },
+  {
+  icon: '🎬',
+  title: 'IMDb Movie Review Sentiment Analysis',
+  year: '2026',
+  description: 'Natural Language Processing project that predicts whether movie reviews express Positive or Negative sentiment using Machine Learning algorithms.',
+  highlights: [
+    'Implemented an end-to-end sentiment analysis pipeline using NLP techniques',
+    'Preprocessed movie review text through tokenization, stemming, and stopword removal',
+    'Generated TF-IDF feature vectors for machine learning model training',
+    'Built and evaluated sentiment classification models on IMDb review dataset',
+    'Measured performance using Accuracy, Precision, Recall, and F1-Score',
+    'Enabled automatic sentiment prediction for new movie reviews'
+  ],
+  tools: [
+    'Python',
+    'Scikit-learn',
+    'Pandas',
+    'NumPy',
+    'TF-IDF',
+    'Machine Learning'
+  ],
+  github: 'https://github.com/SachinDevarajan/IMDB_Review_Analysis',
+  demo: null,
+  },
+  {
+  icon: '🛡️',
+  title: 'Fake News Detection using NLP',
+  year: '2026',
+  description: 'Machine Learning based Fake News Detection system that identifies whether a news article is Real or Fake using Natural Language Processing techniques.',
+  highlights: [
+    'Developed a complete NLP pipeline for fake news classification',
+    'Performed data preprocessing including text normalization and stopword removal',
+    'Extracted text features using TF-IDF Vectorizer',
+    'Trained Machine Learning models to classify fake and genuine news articles',
+    'Evaluated model performance using Confusion Matrix and Classification Report',
+    'Created an intelligent prediction system for real-time news credibility analysis'
+  ],
+  tools: [
+    'Python',
+    'Scikit-learn',
+    'Pandas',
+    'NumPy',
+    'TF-IDF',
+    'Machine Learning'
+  ],
+  github: 'https://github.com/SachinDevarajan/Fake_News_Analysis',
+  demo: null,
+  },
+  {
     icon: '📦',
     title: 'Blinkit Sales Analytics Dashboard',
     year: '2026',
