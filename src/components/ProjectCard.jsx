@@ -15,10 +15,22 @@ export default function ProjectCard({ project, index }) {
       {/* Gradient glow on hover */}
       <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
+      {/* Image */}
+      {project.image && (
+        <div className="relative z-10 -mx-7 -mt-7 mb-5 overflow-hidden rounded-t-3xl bg-gray-100 dark:bg-gray-800">
+          <img
+            src={project.image}
+            alt={project.title}
+            className="w-full h-56 object-contain group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+          />
+        </div>
+      )}
+
       {/* Header */}
       <div className="flex items-start justify-between mb-5 relative z-10">
         <div className="w-12 h-12 rounded-2xl bg-accent/10 flex items-center justify-center text-accent text-xl font-display font-bold border border-accent/20">
-          {project.icon}
+          {project.category ? project.category.charAt(0) : '•'}
         </div>
         <div className="flex gap-2">
           {project.github && (
@@ -56,26 +68,49 @@ export default function ProjectCard({ project, index }) {
         <h3 className="font-display font-bold text-xl text-gray-900 dark:text-white mb-3 group-hover:text-accent transition-colors duration-300 leading-tight">
           {project.title}
         </h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-5 flex-1">
-          {project.description}
+
+        {/* Problem / Solution */}
+        <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-2 flex-1">
+          {project.problem}
         </p>
+        {project.solution && (
+          <p className="text-sm text-gray-500 dark:text-gray-400 leading-relaxed mb-5">
+            {project.solution}
+          </p>
+        )}
 
-        {/* Features */}
-        <ul className="space-y-1.5 mb-6">
-          {project.highlights.map((h, i) => (
-            <li key={i} className="flex items-start gap-2 text-xs text-gray-600 dark:text-gray-400">
-              <span className="mt-1 w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
-              {h}
-            </li>
-          ))}
-        </ul>
+        {/* Results (object, not array) */}
+        {project.results && (
+          <div className="flex flex-wrap gap-3 mb-5">
+            {Object.entries(project.results).map(([key, value]) => (
+              <div key={key} className="text-xs">
+                <span className="block text-gray-400 dark:text-gray-500 capitalize">{key}</span>
+                <span className="block font-semibold text-gray-800 dark:text-gray-200">{value}</span>
+              </div>
+            ))}
+          </div>
+        )}
 
-        {/* Tags */}
-        <div className="flex flex-wrap gap-2 mb-5">
-          {project.tools.map(t => (
-            <span key={t} className="skill-tag text-[10px]">{t}</span>
-          ))}
-        </div>
+        {/* Features (was "highlights" — now matches data) */}
+        {project.features && (
+          <ul className="space-y-1.5 mb-6">
+            {project.features.map((f, i) => (
+              <li key={i} className="flex items-start gap-2 text-xs text-gray-600 dark:text-gray-400">
+                <span className="mt-1 w-1.5 h-1.5 rounded-full bg-accent shrink-0" />
+                {f}
+              </li>
+            ))}
+          </ul>
+        )}
+
+        {/* Tools */}
+        {project.tools && (
+          <div className="flex flex-wrap gap-2 mb-5">
+            {project.tools.map(t => (
+              <span key={t} className="skill-tag text-[10px]">{t}</span>
+            ))}
+          </div>
+        )}
 
         {/* CTA */}
         {project.github && (
