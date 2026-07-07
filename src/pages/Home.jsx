@@ -11,7 +11,7 @@ const socials = [
 ]
 
 const stats = [
-  { num: '4+', label: 'Projects Built' },
+  { num: '6+', label: 'Projects Built' },
   { num: '5+', label: 'Tools Mastered' },
   { num: '51K+', label: 'Records Analyzed' },
   { num: '2', label: 'Degrees' },
