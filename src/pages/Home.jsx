@@ -11,8 +11,8 @@ const socials = [
 ]
 
 const stats = [
-  { num: '6+', label: 'Projects Built' },
-  { num: '5+', label: 'Tools Mastered' },
+  { num: '8+', label: 'Projects Built' },
+  { num: '6+', label: 'Tools Mastered' },
   { num: '51K+', label: 'Records Analyzed' },
   { num: '2', label: 'Degrees' },
 ]
@@ -73,12 +73,12 @@ export default function Home() {
               </p>
               <span className="text-accent/40">•</span>
               <p className="font-body text-lg text-gray-500 dark:text-gray-400">
-                BI & ML Enthusiast
+                ML & Gen AI Enthusiast
               </p>
             </motion.div>
 
             <motion.p variants={item} className="text-gray-500 dark:text-gray-400 leading-relaxed text-base mb-8 max-w-xl">
-              Aspiring Data Analyst with hands-on expertise in <span className="text-accent font-medium">Python, SQL, Power BI</span>, and Machine Learning. 
+              Aspiring Data Analyst & ML Engineer and Gen AI with hands-on expertise in <span className="text-accent font-medium">Python, SQL, Power BI</span>, and Machine Learning. 
               I transform raw datasets into actionable insights using data-driven decision making and 
               compelling visualizations.
             </motion.p>

@@ -38,6 +38,14 @@ const skillCategories = [
     skills: ['Linear Regression', 'Logistic Regression', 'Decision Tree','KNN', 'KMeans', 'Clustering', 'Model Evaluation', 'Confusion Matrix','Over Sampling','SMOTE','Under Sampling']
   },
   {
+    icon: <FiCpu size={18} />,
+    label: 'Generative AI',
+    color: 'from-purple-500/10 to-purple-500/5',
+    border: 'border-purple-500/20',
+    accent: 'text-purple-500',
+    skills: ['RAG', 'NLP', 'Semantic Search', 'FAISS', 'Sentence Transformers', 'Vector Databases', 'Prompt Engineering', 'LLMs']
+  },
+  {
     icon: <FiCode size={18} />,
     label: 'Libraries',
     color: 'from-orange-500/10 to-orange-500/5',
