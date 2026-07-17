@@ -1,6 +1,7 @@
 import SectionTitle from '../components/SectionTitle'
 import ProjectCard from '../components/ProjectCard'
 import agNews from "../assets/projects/agnews.png";
+import pdfQA from "../assets/projects/pdfQA.png";
 import imdb from "../assets/projects/imdb.png";
 import fakeNews from "../assets/projects/fakenews.png";
 import blinkit from "../assets/projects/blinkit.png";
@@ -13,6 +14,51 @@ import firstcry from "../assets/projects/firstcry.png";
 const projects = [
   {
     id: 1,
+    featured: true,
+    category: "GenAI",
+    image: pdfQA,
+
+    title: "Python Tutor Chatbot (RAG-based)",
+
+    year: "2026",
+
+    problem:
+      "Learning Python from a textbook means manually searching through chapters to find explanations, making it slow to get quick, context-aware answers to specific Python questions.",
+
+    solution:
+      "Built a Retrieval-Augmented Generation (RAG) chatbot that extracts and chunks a Python textbook into a FAISS vector database, retrieves the most relevant passages for a user's question, and uses an LLM to generate accurate, context-grounded Python explanations.",
+
+    results: {
+      dataset: "Python Textbook (Think Python)",
+      algorithm: "Semantic Search + RAG + LLM",
+      task: "Python Q&A / Tutoring Chatbot"
+    },
+
+    features: [
+      "PDF Text Extraction",
+      "Text Chunking",
+      "Semantic Embeddings",
+      "Vector Similarity Search",
+      "FAISS Indexing",
+      "Context Retrieval",
+      "LLM-Powered Python Q&A"
+    ],
+
+    tools: [
+      "Python",
+      "FAISS",
+      "Sentence Transformers",
+      "PyMuPDF",
+      "Groq API",
+      "LLM",
+      "RAG"
+    ],
+
+    github: "https://github.com/SachinDevarajan/Python-chatbot",
+    demo: null
+  },
+  {
+    id: 2,
     featured: true,
     category: "NLP",
     image: agNews,
@@ -57,7 +103,7 @@ const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     featured: true,
     category: "NLP",
 
@@ -103,7 +149,7 @@ const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     featured: true,
 
     category: "NLP",
@@ -151,7 +197,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
 
     featured: true,
 
@@ -200,7 +246,7 @@ const projects = [
   },
 
   {
-    id: 5,
+    id: 6,
 
     category: "EDA",
 
@@ -244,7 +290,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 7,
 
     category: "Power BI",
 
@@ -288,7 +334,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 8,
 
     category: "Excel",
 
@@ -332,7 +378,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 9,
 
     category: "Excel",
 
@@ -374,7 +420,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 10,
 
     category: "Power BI",
 
